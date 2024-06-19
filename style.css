@@ -203,4 +203,16 @@ main #about p {
   background-color: #646185;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  color: #4A4A4A;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+
+
+@use '../partials/_mixins';
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  @include mixins.p
+}
