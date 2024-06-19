@@ -106,9 +106,16 @@ main #about p {
 }
 #projects .projects-details {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1.2rem;
   margin-top: 2rem;
+}
+@media screen and (min-width: 820px) {
+  #projects .projects-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+  }
 }
 #projects .projects-details .individual-project {
   border-radius: 8px;
@@ -117,7 +124,6 @@ main #about p {
   overflow: hidden;
   position: relative;
   transition: transform 0.3s ease;
-  height: 80vh;
 }
 #projects .projects-details .individual-project:hover {
   transform: translateY(-5px);
@@ -142,6 +148,12 @@ main #about p {
   padding: 15px;
   background-color: #f1f1e1;
   height: 100%;
+  font-size: smaller;
+}
+@media screen and (min-width: 820px) {
+  #projects .projects-details .individual-project p {
+    font-size: medium;
+  }
 }
 
 #contact {

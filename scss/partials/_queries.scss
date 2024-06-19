@@ -1,0 +1,12 @@
+$sm: 820px;
+
+
+
+@mixin small-screen{
+  @media screen and (min-width:$sm)  {
+  @content
+  }
+};
+
+
+

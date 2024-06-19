@@ -3,6 +3,7 @@ $p-background-color: #f1f1e1;
 
 
 @use '../partials/_mixins';
+@use '../partials/queries';
 
 #projects {
   margin-bottom: 5rem;
@@ -17,8 +18,13 @@ $p-background-color: #f1f1e1;
   }
 
   .projects-details {
+    @include queries.small-screen{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 2rem;
+    }
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1.2rem;
     margin-top: 2rem;
    
@@ -26,10 +32,9 @@ $p-background-color: #f1f1e1;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       margin-bottom: 20px;
-      overflow: hidden;
+      overflow:hidden;
       position: relative;
       transition: transform 0.3s ease;
-      height: 80vh;
      
 
 
@@ -56,9 +61,14 @@ $p-background-color: #f1f1e1;
     }
 
     p {
+      @include queries.small-screen{
+        font-size: medium;
+      }
+
       padding: 15px;
       background-color: $p-background-color; 
       height: 100%;
+      font-size:smaller;
     }
 
     }
