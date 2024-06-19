@@ -1,0 +1,32 @@
+
+
+
+@use '../partials/_mixins';
+
+
+  #tech{
+    margin-bottom: 5rem;
+    h1{
+    
+      @include mixins.h1;
+      
+    }
+    .tech-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap:1rem;
+      padding: 1rem;
+      justify-items: center;
+
+      img{
+        max-width: 100px;
+        transition: transform 0.3s ease;
+
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+
+    }
+
+  }

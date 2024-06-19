@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E1DFBA;
+}
+
+main {
+  padding: 5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+main #about {
+  margin-bottom: 5rem;
+}
+main #about h1 {
+  color: #4A4A4A;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+main #about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  color: #4A4A4A;
+  text-align: justify;
+  border-left: 4px solid #7F7E90;
+  padding-left: 1rem;
+}
+
+.navBar {
+  background-color: #555273;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+}
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.navBar ul li {
+  list-style: none;
+}
+.navBar ul li a {
+  text-decoration: none;
+  font-family: "Playwrite ES", cursive;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s, background-color 0.3s;
+}
+.navBar ul li a:hover {
+  color: #FFD700;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+#tech {
+  margin-bottom: 5rem;
+}
+#tech h1 {
+  color: #4A4A4A;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+#tech .tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  justify-items: center;
+}
+#tech .tech-grid img {
+  max-width: 100px;
+  transition: transform 0.3s ease;
+}
+#tech .tech-grid img:hover {
+  transform: scale(1.1);
+}
+
+#projects {
+  margin-bottom: 5rem;
+}
+#projects h1 {
+  color: #4A4A4A;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+#projects p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  color: #4A4A4A;
+}
+#projects .projects-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+#projects .projects-details .individual-project {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+  height: 80vh;
+}
+#projects .projects-details .individual-project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+#projects .projects-details .individual-project img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+#projects .projects-details .individual-project h3 {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  margin: 0;
+}
+#projects .projects-details .individual-project p {
+  padding: 15px;
+  background-color: #f1f1e1;
+  height: 100%;
+}
+
+#contact {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  color: #4A4A4A;
+}
+#contact h1 {
+  color: #4A4A4A;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-bottom: 20px;
+}
+#contact .form-group {
+  margin-bottom: 20px;
+}
+#contact .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+#contact .form-group input[type=text],
+#contact .form-group input[type=email],
+#contact .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f1f1e1;
+  border-radius: 5px;
+}
+#contact .form-group input[type=text]::placeholder,
+#contact .form-group input[type=email]::placeholder,
+#contact .form-group textarea::placeholder {
+  color: #bbb;
+}
+#contact .form-group input[type=text]:focus,
+#contact .form-group input[type=email]:focus,
+#contact .form-group textarea:focus {
+  outline: none;
+}
+#contact .form-group textarea {
+  height: 120px;
+  resize: none;
+}
+#contact .submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #555273;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+#contact .submit-button:hover {
+  background-color: #646185;
+}
+
+/*# sourceMappingURL=style.css.map */

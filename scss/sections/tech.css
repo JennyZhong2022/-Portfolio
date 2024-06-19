@@ -1,0 +1,1 @@
+#tech{margin-bottom:5rem}#tech h1{color:#4a4a4a;font-size:2.5rem;margin-bottom:1rem}#tech .tech-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(100px, 1fr));gap:1rem;padding:1rem;justify-items:center}#tech .tech-grid img{max-width:100px;transition:transform .3s ease}#tech .tech-grid img:hover{transform:scale(1.1)}

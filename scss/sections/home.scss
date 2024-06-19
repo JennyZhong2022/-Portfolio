@@ -1,0 +1,41 @@
+$primary-color: #E1DFBA;
+$secondary-color: #7F7E90;
+
+
+@use '../partials/_mixins';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+}
+
+main {
+  padding: 5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  #about {
+    margin-bottom: 5rem;
+
+    h1 {
+      @include mixins.h1;
+      text-align: center;
+       
+    }
+
+    p {
+      @include mixins.p;
+      text-align: justify;
+      border-left: 4px solid $secondary-color;
+      padding-left: 1rem;
+    
+    }
+  }
+
+}

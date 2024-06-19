@@ -1,0 +1,15 @@
+$heading-color: #4A4A4A;
+
+@mixin h1{
+  color: $heading-color;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;    
+}
+
+@mixin p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  color: $heading-color;
+}

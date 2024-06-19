@@ -1,0 +1,67 @@
+$p-background-color: #f1f1e1;
+$secondary-color: #555273;
+$button-hover-color:#646185;
+
+@use '../partials/_mixins';
+
+
+
+#contact {
+  @include mixins.p;
+
+
+  h1 {
+    @include mixins.h1;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;  // Full width of the form
+      padding: 10px;
+      border: none;  // No border
+      background-color: $p-background-color;  // Darker background for input fields
+      // color: #fff;  // White text color
+      border-radius: 5px;
+
+      &::placeholder {  // Styling placeholders
+        color: #bbb;
+      }
+
+      &:focus {  // When the input is focused
+        outline: none;  // No outline
+        // background-color: #444;  // Slightly lighter background on focus
+      }
+    }
+
+    textarea {
+      height: 120px;  // Fixed height for textarea
+      resize: none;  // Disable resizing
+    }
+  }
+
+  .submit-button {
+    width: 100%;  // Full width button
+    padding: 10px;
+    background-color: $secondary-color;  
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $button-hover-color;  // Lighter blue on hover
+    }
+  }
+}

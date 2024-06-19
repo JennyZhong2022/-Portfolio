@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jenny Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <nav class="navBar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#tech">Tech</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h1>Hi, I'm Jenny</h1>
+      <p>
+        As a professional transitioning from health administration and sales customer service to software engineering, I have honed key skills like meticulous attention to detail and robust problem-solving abilities, which are pivotal in the tech industry. My experience in understanding and managing complex systems and prioritizing user needs has been instrumental in my journey towards developing software that is not only efficient and user-friendly but also makes a tangible positive impact. I take immense pride in my innovative solutions and creations. Looking ahead, I am excited about opportunities that allow me to grow, learn, and contribute to meaningful and creative projects in the tech world!
+      </p>
+    </section>
+
+    <section id="tech">
+      <h1>Technologies</h1>
+      <div class="tech-grid">
+        <img src="./src/assets/tech/html.png" alt="HTML">
+        <img src="./src/assets/tech/css.png" alt="CSS">
+        <img src="./src/assets/tech/javascript.png" alt="JavaScript">
+        <img src="./src/assets/tech/git.png" alt="Git">
+        <img src="./src/assets/tech/sass.png" alt="Sass">
+        <img src="./src/assets/tech/reactjs.png" alt="ReactJS">
+        <img src="./src/assets/tech/redux.png" alt="Redux">
+        <img src="./src/assets/tech/tailwind.png" alt="Tailwind CSS">
+        <img src="./src/assets/tech/Bootstrap.svg" alt="Bootstrap">
+        <img src="./src/assets/tech/mongodb.png" alt="MongoDB">
+        <img src="./src/assets/tech/nodejs.png" alt="Node.js">
+        <img src="./src/assets/tech/typescript.png" alt="TypeScript">
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <p>The following projects showcase my skills and experience with real-world examples of my work. Each one was completed within one week. Click on a card to visit the project's website, or click on the GitHub icon to go to the GitHub repository.
+      </p>
+      <div class="projects-details">
+      <div class="individual-project">
+        <h3>Hunter's Garden</h3>
+        <img src="./src/assets/projects/huntergarden.jpeg" alt="hunterGarden">
+        
+        <p>Hunter's Garden is an engaging single-page website created for a private pet-sitting service. It features the inspiring growth story of Hunter and owner. Moreover, the site is integrated with social media, providing links to the owner's Facebook and Instagram pages. The 'Contact' section is thoughtfully designed with direct email integration, enabling clients to communicate with the owner via a contact form. The website is responsive.</p>
+        <p></p>
+
+      </div>
+
+      <div class="individual-project">
+        <h3>BookSnap</h3>
+        <img src="./src/assets/projects/booksnap.jpeg" alt="bookSnap">
+        <p>BookSnap is a full-stack, single-page web application that allows users to search for books using the Google Books API. Users can search for books, add them to their collection, and manage their reading list. It is a collaborative project involving four team members who worked together for one week, utilizing GitHub branches and Trello to assign tasks. The project focuses on a MERN infrastructure.</p>
+      </div>
+    </div> 
+    </section>
+
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <form action="submit" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="userName" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="userEmail" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Jenny Zhong. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
