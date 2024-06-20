@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jenny Portfolio</title>
   <link rel="stylesheet" href="./style.css">
+  <script defer src="./script.js"></script>
 </head>
 <body>
 
@@ -81,7 +82,7 @@
 
     <section id="contact">
       <h1>Contact Me</h1>
-      <form action="submit" method="POST">
+      <form action="submit" method="POST" id="form">
         <div class="form-group">
           <label for="name">Your Name:</label>
           <input type="text" id="name" name="userName" placeholder="Your name" required>
@@ -96,6 +97,7 @@
         </div>
         <button type="submit" class="submit-button">Send</button>
       </form>
+      <div id="status"></div>
     </section>
   </main>
 
@@ -103,5 +105,11 @@
     <p>&copy; 2024 Jenny Zhong. All rights reserved.</p>
   </footer>
 
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("Ou1AGpBJj5uSTeL8o");
+  })();
+</script>
 </body>
 </html>
