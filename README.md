@@ -2,7 +2,7 @@
 # my-portfolio
 
 ## Introduction
-Hi, I am proud to present my portfolio. Please take a moment to explore my website, which showcases my projects, work experience, technical skills, and more.
+Hi, I am proud to present my portfolio. Please take a moment to explore my website, which showcases my projects, technical skills, and more.
 
 ## Features
 - fancinating SCSS Style
@@ -14,10 +14,9 @@ Hi, I am proud to present my portfolio. Please take a moment to explore my websi
 
 
 ## Screenshots
-![23541705147586_ pic](https://github.com/JennyZhong2022/my-portfolio/assets/109143979/023f74d9-47fb-4499-9c11-7e659278ea5d)
-![23551705148773_ pic](https://github.com/JennyZhong2022/my-portfolio/assets/109143979/c00b7f99-a192-4397-b618-0b0570969fd3)
-![23561705148793_ pic](https://github.com/JennyZhong2022/my-portfolio/assets/109143979/426c1f3d-5685-46e9-bc58-7225015e6494)
-![23571705148814_ pic](https://github.com/JennyZhong2022/my-portfolio/assets/109143979/dcc6189e-cfe0-4c12-a862-03ccda6aa9e5)
+![25261719109344_ pic](https://github.com/JennyZhong2022/-Portfolio/assets/109143979/94789ea6-a6ac-43aa-8968-daffd24c1d70)
+![25271719109361_ pic](https://github.com/JennyZhong2022/-Portfolio/assets/109143979/605ae5dc-c4e4-42e9-a65b-5a5a0ec5fb81)
+![25281719109378_ pic](https://github.com/JennyZhong2022/-Portfolio/assets/109143979/9bcc8b10-eb50-4f1e-b10d-5107eaa2f450)
 
 
 ## Contact
